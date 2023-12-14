@@ -11,3 +11,6 @@ class myClass(object):
 
     def returnValue(self):
         return self._value
+
+    def multiplier(self, multiplier):
+        self._value * multiplier
