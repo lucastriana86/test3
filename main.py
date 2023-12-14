@@ -7,7 +7,9 @@ from myClass import myClass
 if __name__ == '__main__':
 
 
-    
+
     test= myClass('value')
+    print(test.returnValue())
+    test.multiplier(2)
     print(test.returnValue())
 
